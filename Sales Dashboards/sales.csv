@@ -1,0 +1,8 @@
+SaleID,ProductID,SalesPerson,UnitsSold,Region
+1,101,Azra,30,East
+2,103,Sameer,20,West
+3,104,Riya,15,North
+4,105,Azra,10,South
+5,102,John,50,East
+1,101,Azra,30,East
+3,104,Riya,15,North
