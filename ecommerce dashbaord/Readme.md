@@ -1,24 +1,44 @@
-# 📊 Ecommerce Sales & Profit Dashboard (Power BI)
+# 📊 Ecommerce Sales Analysis & Dashboard
 
-An interactive **Ecommerce Analytics Dashboard** built using **Power BI** to analyze sales performance, profitability, customer behavior, and shipping insights across different dimensions such as time, region, category, and state.
+This folder contains:
+- An interactive **Ecommerce Sales Dashboard (Power BI)**
+- A supporting **Exploratory Data Analysis Notebook — `ecommerce.ipynb`**
+
+Both files work together to provide **data analysis + business insights** through visuals, trends, and performance metrics.
 
 ---
 
 ## 🚀 Project Overview
 
-This project focuses on transforming raw ecommerce data into **actionable business insights** through well-designed and interactive Power BI dashboards.
+This project transforms raw ecommerce data into **actionable business insights** using:
+- **Power BI** for interactive dashboards and KPI reporting
+- **Python (Jupyter Notebook)** for data cleaning, EDA, and statistical exploration
 
-The dashboard enables stakeholders to:
-- Track overall **Sales, Profit, Customers, and Discounts**
-- Understand **monthly trends**
-- Identify **top-performing states, regions, categories, and segments**
-- Analyze the **impact of discount on sales and profit**
-- Compare **shipping modes** and their contribution to sales & profit
+Stakeholders can:
+- Track overall **Sales, Profit, Customers, Discounts**
+- Understand **monthly and regional trends**
+- Identify **profitable categories, segments, and states**
+- Analyze the **impact of discounts**
+- Compare **shipping modes & performance**
 
 ---
 
-## 📌 Key KPIs
+## 📂 Project Contents
 
+### 1️⃣ `ecommerce.ipynb` — Jupyter Notebook
+Includes:
+- Data cleaning & preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Trend analysis & distribution insights  
+- Visualizations supporting dashboard interpretation  
+
+The notebook helps validate and understand data **before visualization**.
+
+---
+
+### 2️⃣ **Ecommerce Power BI Dashboard**
+
+#### 📌 Key KPIs
 - **Total Customers:** 9.99K  
 - **Total Sales:** 2.30M  
 - **Total Profit:** 286.40K  
@@ -29,35 +49,35 @@ The dashboard enables stakeholders to:
 ## 📈 Dashboard Insights
 
 ### 🔹 Sales Analysis
-- Total Sales by Month
-- Total Sales by Category & Sub-Category
-- Total Sales by Region & State
-- Total Sales by Segment (Consumer, Corporate, Home Office)
-- Total Sales by Ship Mode
+- Sales by Month  
+- Sales by Category & Sub-Category  
+- Sales by Region & State  
+- Sales by Customer Segment  
+- Sales by Ship Mode  
 
 ### 🔹 Profit Analysis
-- Total Profit by Month
-- Total Profit by Category & Sub-Category
-- Total Profit by Region & State
-- Total Profit by Segment
-- Total Profit by Ship Mode
+- Profit by Month  
+- Profit by Category & Sub-Category  
+- Profit by Region & State  
+- Profit by Segment  
+- Profit by Ship Mode  
 
 ### 🔹 Discount Impact
-- Discount vs Sales analysis
-- Discount vs Profit analysis to identify loss-making discounts
+- Discount vs Sales  
+- Discount vs Profit (loss-risk detection)
 
 ---
 
 ## 🧩 Filters & Interactivity
 
-The dashboard includes dynamic filters for:
-- Postal Code
-- Quantity
-- Product Name
-- Product ID
-- City
+Dynamic slicers for:
+- Postal Code  
+- Quantity  
+- Product Name  
+- Product ID  
+- City  
 
-Navigation buttons allow switching between:
+Navigation buttons toggle:
 - **Sales View**
 - **Profit View**
 
@@ -66,35 +86,34 @@ Navigation buttons allow switching between:
 ## 🛠 Tools & Technologies Used
 
 - **Power BI**
-- **Power Query** (Data Cleaning & Transformation)
-- **DAX** (Calculated Measures & KPIs)
-- **Data Visualization & Dashboard Design**
+  - Power Query (Data Cleaning)
+  - DAX (Measures & KPIs)
+  - Interactive Visual Design
+
+- **Python (Jupyter Notebook)**
+  - Pandas • NumPy • Matplotlib / Seaborn
 
 ---
 
-## 📂 Dataset
+## 📂 Folder Structure
 
-The dataset represents ecommerce transactional data including:
-- Orders
-- Customers
-- Products
-- Sales
-- Profit
-- Discounts
-- Shipping Details
-- Geographic Information
-
-*(Sample / Superstore-style ecommerce dataset)*
+```
+/Ecommerce Project
+│
+├── ecommerce.ipynb          → EDA & analysis
+├── Ecommerce_Dashboard.pbix → Power BI dashboard
+└── README.md
+```
 
 ---
 
 ## 🎯 Business Questions Answered
 
-- Which states and regions generate the highest sales and profit?
-- Does higher discount always lead to higher sales?
-- Which customer segment is most profitable?
-- Which shipping mode contributes the most to profit?
-- What are the monthly sales and profit trends?
+- Which states and regions generate the highest profit and sales?
+- Does discounting improve revenue or cause losses?
+- Which customer segment contributes the most?
+- Which shipping mode performs best?
+- What are the monthly sales & profit trends?
 
 ---
 
@@ -104,27 +123,5 @@ The dataset represents ecommerce transactional data including:
 <img width="1142" height="723" alt="image" src="https://github.com/user-attachments/assets/d3d2a369-ca16-45ee-bb9e-0dbc38af05f4" />
 <img width="1159" height="736" alt="image" src="https://github.com/user-attachments/assets/ddfb3cfe-fb1d-431c-bd38-45b07e086efc" />
 <img width="1141" height="730" alt="image" src="https://github.com/user-attachments/assets/8ec4a3f4-b9a7-4a17-9064-70040949d636" />
-
-
----
-
-## 💡 Key Learnings
-
-- Data modeling and relationships in Power BI
-- Writing optimized DAX measures
-- Designing clean, professional dashboards
-- Translating data into business insights
-
----
-
-## 👩‍💻 Author
-
-**Azra Patvi**  
-B.Tech in Artificial Intelligence & Data Science  
-Aspiring Data Analyst | Power BI | SQL | Python  
-
-📌 *Feel free to explore, fork, or connect!*
-
----
 
 ⭐ If you like this project, don’t forget to give it a star!
