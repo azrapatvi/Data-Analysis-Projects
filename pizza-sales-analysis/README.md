@@ -62,7 +62,7 @@ Create tables manually → define data types → insert data → ensures better 
 
 ---
 
-##🔎 SQL Business Analysis (analysis.sql)
+## 🔎 SQL Business Analysis (analysis.sql)
 
 This project answers:
 
@@ -80,7 +80,7 @@ This project answers:
 
 ---
 
-##📊 Notebook Analysis & Data Exploration (pizza_sales.ipynb)
+## 📊 Notebook Analysis & Data Exploration (pizza_sales.ipynb)
 
 The notebook extends insights beyond SQL using EDA + Visuals:
 
