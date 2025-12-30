@@ -1,23 +1,25 @@
-# 🍕 Pizza Sales Analysis — SQL + Data Exploration (Notebook)
+# 🍕 Pizza Sales Analysis — SQL, Python EDA & Power BI Dashboard
 
 ## 📌 Project Overview
-This project analyzes pizza sales data using **MySQL (SQL queries)** and a **Python Notebook (.ipynb)** to uncover key business insights such as:
+This project is an **end-to-end Pizza Sales Analysis** using **MySQL (SQL)**, **Python (EDA Notebook)**, and an **interactive Power BI dashboard** to uncover actionable business insights.
 
-- Revenue trends and order patterns  
-- Best-selling pizzas and categories  
-- Size-wise and category-wise contribution  
-- Peak order times and seasonal behavior  
-- Visual insights from charts and EDA
+The analysis focuses on:
+- Revenue trends & sales performance
+- Customer ordering behavior
+- Pizza-wise, size-wise & category-wise performance
+- Time-based patterns (hour, day, month)
+- Identifying top & bottom performing pizzas
 
-The project demonstrates **clean SQL writing, structured analysis, data visualization, and business-oriented thinking**.
+This project demonstrates a **complete analytics workflow** — from raw data querying to visual storytelling.
 
 ---
 
 ## 🛠 Tools & Technologies
-- MySQL / MySQL Workbench  
-- Python (Pandas, Matplotlib, Seaborn)  
-- Jupyter / Google Colab Notebook (`pizza_sales.ipynb`)  
-- GitHub
+- **Database:** MySQL / MySQL Workbench  
+- **Data Analysis:** Python (Pandas, Matplotlib, Seaborn)  
+- **Visualization & Reporting:** Power BI  
+- **Notebook:** Jupyter / Google Colab (`pizza_sales.ipynb`)  
+- **Version Control:** GitHub  
 
 ---
 
@@ -27,11 +29,11 @@ The project demonstrates **clean SQL writing, structured analysis, data visualiz
 📁 Pizza-Sales-Analysis
 ├── schema.sql # Database & table structure
 ├── analysis.sql # SQL queries for business insights
+├── Pizza_Sales_Dashboard.pbix
 ├── pizza_sales.ipynb # Notebook for EDA & visual analysis
 └── README.md
 
 ```
-
 
 ---
 
@@ -99,6 +101,64 @@ The notebook extends insights beyond SQL using EDA + Visuals:
 - Category-wise & size-wise contribution
 - Top-selling vs least-selling pizzas
 - Time-based order distribution (hour/day/month)
+
+
+## 📊 Power BI Dashboard Overview
+
+The Power BI dashboard converts analytical insights into an **interactive business report** using slicers, filters, and drill-down capabilities.
+
+### 🏠 Home Page
+**Key performance indicators (KPIs):**
+- Total Revenue  
+- Order Count  
+- Total Quantity Sold  
+- Average Order Value  
+
+**Features:**
+- Global date slicer for dynamic filtering
+- Navigation buttons for seamless page switching
+
+### 📈 Sales Analysis Page
+**Sales performance insights:**
+- Total sales by pizza size
+- Sales contribution by category
+- Quantity-based sales distribution
+- Monthly sales trend
+- Average Order Value (AOV) gauge
+- Pizza-wise sales comparison
+
+### 🧮 Order Analysis Page
+**Customer ordering behavior:**
+- Number of orders by quantity
+- Orders by pizza type
+- Orders by pizza category
+- Orders by day of the week
+- Hour-group heatmap for demand analysis
+- Monthly order trend
+
+### 🍕 Pizza Performance Page
+**Product-level performance analysis:**
+- Top 10 pizzas by quantity sold
+- Bottom 10 pizzas by quantity sold
+- Category-wise performance comparison
+- Size-wise performance across categories
+
+**Detailed performance table includes:**
+- Pizza name  
+- Category  
+- Size  
+- Price  
+- Quantity  
+- Total sales
+
+##**The dashboard pages and visuals are demonstrated in the screenshots below.**
+<img width="1288" height="730" alt="image" src="https://github.com/user-attachments/assets/6f1f4e2f-fe38-4b53-b00a-0e971a4ecee3" />
+<img width="1261" height="718" alt="image" src="https://github.com/user-attachments/assets/930e6fe9-4730-49dc-b436-1b69b890f687" />
+<img width="1262" height="716" alt="image" src="https://github.com/user-attachments/assets/04fe1c8a-8103-4ebc-8f27-29c9cf2333ae" />
+<img width="1261" height="721" alt="image" src="https://github.com/user-attachments/assets/b18a1b12-1f1a-4bec-bc35-b6e0af9b694a" />
+
+
+---
 
 ## 🧾 Conclusion
 
