@@ -23,8 +23,8 @@ Data-Analysis-Projects/
 ├── amazon Dashboard/
 ├── ecommerce dashboard/
 ├── hospital analysis dashboard/
-├── pizza-sales-analysis
-├── student performance analysis
+├── pizza-sales-analysis/
+├── student performance analysis/
 ├── insurance Dashboard/
 ├── twitter Dashboard/
 └── uber dashboard/
