@@ -34,11 +34,12 @@ The **below images are screenshots (SS)** of the dashboard showcasing different 
 
 **Dashboard Screenshots (SS):**
 
-<img width="1105" height="733" alt="image" src="https://github.com/user-attachments/assets/9d3effb9-1d80-4dd3-bd2e-25c1b8353737" />
-<img width="1082" height="720" alt="image" src="https://github.com/user-attachments/assets/73dd1043-e073-4ff6-a4d6-fd84d7f267b8" />
-<img width="1084" height="720" alt="image" src="https://github.com/user-attachments/assets/859e2c51-d297-4574-89e8-033b4ec7d709" />
-<img width="1079" height="724" alt="image" src="https://github.com/user-attachments/assets/142e7a4a-6a3f-4f09-9fae-bd91bc5f10bf" />
-<img width="1082" height="715" alt="image" src="https://github.com/user-attachments/assets/39e7ad61-7598-47d0-8d37-5ec0db2d777a" />
+<img width="1105" height="733" alt="Screenshot 2025-12-25 111817" src="https://github.com/user-attachments/assets/dae8d85e-bf6e-486b-80b1-b0011e493cec" />
+<img width="1082" height="720" alt="Screenshot 2025-12-25 111848" src="https://github.com/user-attachments/assets/4f924b68-e91e-455a-a5e6-a3d455c1313e" />
+<img width="1084" height="720" alt="Screenshot 2025-12-25 111910" src="https://github.com/user-attachments/assets/f1935148-c917-4d8a-b75a-fe7ee1a915d2" />
+<img width="1079" height="724" alt="Screenshot 2025-12-25 111948" src="https://github.com/user-attachments/assets/c6fb5425-2cfd-49fe-932a-24867458b9a6" />
+<img width="1082" height="715" alt="Screenshot 2025-12-25 112032" src="https://github.com/user-attachments/assets/54c5acd5-f054-41cb-8804-1728c979d181" />
+
 
 ---
 
