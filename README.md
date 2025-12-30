@@ -78,6 +78,33 @@ and some contains:(all 3)
 
 ---
 
+### 🍕 Pizza Sales Analysis — SQL, Python EDA & Power BI
+- **End-to-end analytics project**
+- MySQL used for database creation and business queries  
+- Python (Google Colab) used for EDA & validation  
+- Power BI dashboard with:
+  - Revenue, Orders, Quantity & AOV KPIs  
+  - Sales, Order & Pizza Performance pages  
+- Focus on:
+  - Revenue trends
+  - Customer ordering behavior
+  - Size-wise & category-wise performance
+  - Top & bottom performing pizzas  
+
+---
+
+### 🎓 Student Performance Analysis — Python EDA
+- Python-based Exploratory Data Analysis project  
+- Analysis of Math, Reading & Writing scores  
+- Focus on impact of:
+  - Gender
+  - Parental education
+  - Test preparation
+  - Sports & family background  
+- Visual insights using bar charts, histograms, and heatmaps  
+
+---
+
 ### 🛡 Insurance Dashboard
 - Claim & policy trend analysis  
 - Customer segmentation insights
@@ -99,13 +126,16 @@ and some contains:(all 3)
 ## 🛠 Tools & Technologies
 
 - **Power BI**
-  - Power Query • DAX • Interactive Visuals
+  - Power Query • DAX • Interactive Dashboards  
 
-- **Python (Google Colab Notebooks)**
-  - Pandas • NumPy • Matplotlib • Seaborn
+- **SQL**
+  - MySQL • Database Design • Business Queries  
 
-- **Data Analysis Concepts**
-  - EDA • KPI Reporting • Trend & Pattern Analysis
+- **Python (Google Colab)**
+  - Pandas • NumPy • Matplotlib • Seaborn  
+
+- **Analytics Concepts**
+  - EDA • KPI Reporting • Trend Analysis • Business Insights  
 
 ---
 
