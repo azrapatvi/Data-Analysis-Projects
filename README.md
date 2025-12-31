@@ -27,6 +27,7 @@ Data-Analysis-Projects/
 ├── student performance analysis/
 ├── insurance Dashboard/
 ├── twitter Dashboard/
+├── Credit Card Customer & Transaction Analysis/
 └── uber dashboard/
 ```
 
@@ -90,6 +91,34 @@ and some contains:(all 3)
   - Customer ordering behavior
   - Size-wise & category-wise performance
   - Top & bottom performing pizzas  
+
+---
+
+### 💳 Credit Card Customer & Transaction Analysis — MySQL + Power BI
+- **Business Intelligence & Data Refresh Validation project**
+- MySQL used as the backend database (`ccdb`)
+- Two core tables:
+  - `cust_detail` — customer demographics
+  - `cc_detail` — credit card transactions
+- Additional tables (`cust_add`, `cc_add`) added to:
+  - Simulate incremental data
+  - Validate **Power BI refresh functionality**
+- Power BI dashboards include:
+  - Credit Card Transaction Report
+  - Customer Demographic Analysis
+  - Revenue analysis by:
+    - Card Category
+    - Education Level
+    - Customer Job
+    - Expense Type
+    - Gender
+  - Weekly, Quarterly, and Annual revenue trends
+- KPIs:
+  - Total Revenue
+  - Total Transactions
+  - Total Interest Earned
+  - Average Customer Age
+- 📄 **Dashboard preview available in:** `credit_card_report.pdf`
 
 ---
 
