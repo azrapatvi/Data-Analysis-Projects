@@ -141,6 +141,22 @@ was reflected automatically after refresh.
 - Total Interest Earned
 - Average Customer Age
 
+
+## 📸 Dashboard Preview
+
+A preview of the Power BI dashboards created in this project is available in the PDF file below:
+
+📄 **`credit_card_report.pdf`**
+
+This file contains snapshots of:
+- Credit Card Transaction Report  
+- Customer Demographic Analysis  
+- Revenue analysis by Card Category, Education Level, Customer Job, Expense Type, and Gender  
+- Weekly, Quarterly, and Annual Revenue Trends  
+- Key KPIs such as Total Revenue, Total Transactions, and Total Interest Earned  
+
+👉 **Please refer to `credit_card_report.pdf` to view the complete dashboard visuals.**
+
 ---
 
 ## 🎯 Key Learnings
