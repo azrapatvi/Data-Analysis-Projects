@@ -29,15 +29,15 @@ Initially, the project was built using **two main tables**:
 Stores demographic and personal details of customers.
 
 **Key Columns:**
-- `Client_Num` (Customer ID)
-- `Customer_Age`
-- `Gender`
-- `Education_Level`
-- `Marital_Status`
-- `State_cd`
-- `Customer_Job`
-- `Income`
-- `Cust_Satisfaction_Score`
+- `Client_Num` (Customer ID):customers unique id
+- `Customer_Age`: Age of customer
+- `Gender`: gender of customer
+- `Education_Level` : education level of customer like graduate etc
+- `Marital_Status` :single or married
+- `State_cd` : state code
+- `Customer_Job`: job of customer
+- `Income` : income of the person
+- `Cust_Satisfaction_Score` : satisfaction score
 
 ---
 
@@ -45,16 +45,23 @@ Stores demographic and personal details of customers.
 Stores weekly credit card usage and transaction metrics.
 
 **Key Columns:**
-- `Client_Num`
-- `Card_Category`
-- `Annual_Fees`
-- `Credit_Limit`
-- `Total_Trans_Amt`
-- `Total_Trans_Vol`
-- `Avg_Utilization_Ratio`
-- `Interest_Earned`
-- `Week_Start_Date`
-- `Delinquent_Acc`
+- `Client_Num`:customer unique id
+- `Card_Category`: card type like blue gold paltinum etc
+- `Annual_Fees` :yearly card fees
+- `Activation_30_Days` :whether the card is activated within 30 days or not (0:yes and 1:no)
+- `Customer_Acq_Cost`:cost for taking that customer
+- `Credit_Limit`:maximum spend limit
+- `Total_Revolving_Bal`: Outstanding amount (carry forward balance)
+- `Total_Trans_Amt` :Total spend amount (₹) in that week
+- `Total_Trans_Vol`: Number of transactions like 111 measn client 1 did total 111 transactions in that week
+- `Avg_Utilization_Ratio` : Credit limit ka kitna % use hua
+- `Interest_Earned` : how much interest bank earned by that customer
+- `Use Chip`: whether the used chip is swipe card or what
+- `Week_Start_Date` :week start date
+- `Week_num`:week number of the year
+- `Qtr`: quarter of the year ((q1:jan feb march),(q2:april may june))
+- `current_year`:current year
+- `Delinquent_Acc`: whthr the payment is late or not
 
 These two tables were used to build the **initial Power BI dashboards**.
 
