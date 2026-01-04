@@ -28,17 +28,27 @@ Data-Analysis-Projects/
 ├── insurance Dashboard/
 ├── twitter Dashboard/
 ├── Credit Card Customer & Transaction Analysis/
-└── uber dashboard/
+├── uber dashboard/
+└── walmart-sales-sql-analysis/
 ```
 
 Some folder contains:
 - `*.pbix` → Power BI Interactive Dashboard  
-- `README.md` → Project-level explanation & screenshots
-and some contains:(all 3)
-- `*.pbix` → Power BI Interactive Dashboard  
-- `*.ipynb` → Google Colab Notebook (Data Cleaning, EDA & Insights)  
 - `README.md` → Project-level explanation & screenshots  
 
+Some folder contains:
+- `*.ipynb` → Google Colab Notebook (EDA & analysis)  
+- `README.md` → Project-level explanation
+
+Some folder contains:
+- `*.sql` → SQL-based business analysis  
+- `README.md` → Project-level explanation & screenshots  
+
+Some folder contains **all of the following**:
+- `*.pbix` → Power BI Interactive Dashboard  
+- `*.ipynb` → Google Colab Notebook (Data Cleaning, EDA & Insights)  
+- `*.sql` → SQL-based business analysis  
+- `README.md` → Project-level explanation & insights  
 ---
 
 ## 🗂 Project Summaries
@@ -131,6 +141,31 @@ and some contains:(all 3)
   - Test preparation
   - Sports & family background  
 - Visual insights using bar charts, histograms, and heatmaps  
+
+---
+
+### 🛒 Walmart Sales Analysis — SQL + Python
+- **SQL-focused end-to-end data analysis project**
+- Dataset downloaded manually from Kaggle and processed in Python  
+- Python (Google Colab) used for:
+  - Initial data loading
+  - Data inspection & validation
+- MySQL used for:
+  - Database creation (`walmart_db`)
+  - Data cleaning & transformation
+  - Feature engineering (date, time, profit)
+  - Business-driven analytical queries
+- Key analysis areas:
+  - Transaction volume & payment method analysis
+  - Branch & city-level performance
+  - Busiest day per branch using window functions
+  - Category-wise rating & profitability analysis
+  - Time-based sales analysis (Morning / Afternoon / Evening)
+- SQL concepts used:
+  - CTEs
+  - Window Functions (`RANK`, `DENSE_RANK`)
+  - Date & Time functions
+  - Aggregations & conditional logic
 
 ---
 
