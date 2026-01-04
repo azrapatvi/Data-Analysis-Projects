@@ -1,5 +1,7 @@
 # Walmart Sales Data Analysis  
 ### End-to-End Data Analysis using Python & SQL
+<img width="1024" height="490" alt="image" src="https://github.com/user-attachments/assets/8a404b37-09c2-4b75-8039-31d7f1215822" />
+
 
 ## 📌 Project Overview
 
